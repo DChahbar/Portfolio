@@ -6,7 +6,7 @@ Welcome to my personal portfolio website!
 Check it out: [My Portfolio](https://DChahbar.github.io/Portfolio/)
 
 ## Portfolio Preview 🖼️
-![Portfolio Screenshot](screenshot.png)
+![Portfolio Screenshot](Darwish_Chahbar_Image.jpg)
 
 ## Features ✨
 - Responsive Design 📱
