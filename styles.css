@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+#photo {
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+#name {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  left: 0px;
+}
+.split {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #FFFFFF;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #FFFFFF;
+}
+
+.w3-hover-opacity:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .split {
+    width: 100%;
+    position: relative;
+  }
+}
+
+.w3-display-container img {
+  object-fit: cover;
+  height: 250px; /* Adjust as needed */
+}
+.dark-mode-btn {
+    position: fixed;  /* Keep it in the same place on the screen */
+    top: 20px;        /* Distance from the top */
+    right: 20px;      /* Distance from the right */
+    z-index: 1000;    /* Ensures it stays above other elements */
+    padding: 10px 15px;  /* Padding for better appearance */
+    background-color: #009688;  /* Teal color to match the theme */
+    color: white;  /* Text color */
+    border: none;  /* Remove border */
+    cursor: pointer;  /* Make it clickable */
+}
+.w3-tooltip {
+    position: relative;
+}
